@@ -75,3 +75,27 @@ Win check	Scans all 4 directions from every square
 
 AI strategy	Win → Block → Choose best weighted empty cell
 
+
+### Enhanced by adding Othello
+
+Full Othello (Reversi) game where:
+
+✅ the user plays against the computer,
+
+✅ there are 3 difficulty levels (Easy, Medium, Hard),
+
+✅ the AI uses progressively smarter strategies.
+
+
+Let’s break it down step by step with concise examples.
+
+🧩 1️⃣ Core Rules of Othello
+
+Othello is an 8×8 grid game:
+
+Each square can be empty, 'X' (computer), or 'O' (player).
+
+Players take turns placing discs.
+
+Any of the opponent’s discs that are flanked (i.e. between your new disc and an existing one of yours) are flipped.
+
