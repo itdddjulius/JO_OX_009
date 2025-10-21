@@ -58,3 +58,20 @@ If it can win → choose that square.
 If the player can win next → block it.
 
 Otherwise, choose highest-weight empty square.
+
+### Enhanced by adding Gomoku
+
+🧠 Explanation Summary
+
+Step	Description
+
+SIZE = 8	Creates 8×8 board dynamically
+
+WIN_LENGTH = 5	Changes win condition from 3 to 5
+
+Weighted grid	Center has higher weight for smarter moves
+
+Win check	Scans all 4 directions from every square
+
+AI strategy	Win → Block → Choose best weighted empty cell
+
