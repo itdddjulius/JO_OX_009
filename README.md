@@ -99,3 +99,8 @@ Players take turns placing discs.
 
 Any of the opponent’s discs that are flanked (i.e. between your new disc and an existing one of yours) are flipped.
 
+
+### Enhanced by adding Chess
+
+Modal iframe - https://www.raiiarcom.io/chess2/
+
