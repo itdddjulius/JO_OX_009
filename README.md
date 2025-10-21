@@ -37,3 +37,24 @@ Ensure the website has
 5 - The contact button should link via a modal screen to https://www.raiiarcom.io/contact 
 
 }
+
+### Weights are assigned to squares
+
+🧩 Concept summary
+
+
+We assign weights to positions:
+
+Center (index 4) → 3 points (most valuable)
+
+Corners (0, 2, 6, 8) → 2 points
+
+Edges (1, 3, 5, 7) → 1 point
+
+The computer evaluates:
+
+If it can win → choose that square.
+
+If the player can win next → block it.
+
+Otherwise, choose highest-weight empty square.
